@@ -10,7 +10,7 @@ phases:
   pre_build:
     commands:
       - echo Pre-build steps
-  build:
+  build-and-test:
     commands:
       - echo Running unit tests
       - pytest
